@@ -24,7 +24,7 @@
         <TextBox x:Name="serach_adminid"  TextWrapping="Wrap" Text="검색조건 adminid" Width="120" Margin="0,189,680,187"/>
         <TextBox x:Name="serach_subjectid" TextWrapping="Wrap" Text="검색조건 subjectid" Width="120" Margin="130,189,550,187"/>
         <TextBox x:Name="serach_activityid" TextWrapping="Wrap" Text="검색조건 ActivityId" Width="120" Margin="255,189,425,186"/>
-        <TextBox x:Name="searchresult"  TextWrapping="Wrap" Text="검색결과 " Width="120" Margin="400,189,280,213"/>
+        <TextBox x:Name="searchresult"  TextWrapping="Wrap" Text="검색결과 " Width="120" Margin="400,189,280,116"/>
         <Button x:Name="JoinTest" Content="JoinTest"  Margin="700,107,0,270" Click="JoinTest_Click"/>
 
         <ComboBox ItemsSource="{Binding Options}" SelectedItem="{Binding SelectedOption, Mode=TwoWay}" Margin="684,174,0,240">

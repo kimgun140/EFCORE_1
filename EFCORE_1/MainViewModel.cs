@@ -39,7 +39,7 @@ namespace EFCORE_1
         private void ExecuteMethod()
         {
             var TestClass = new TestClass();
-            TestClass.PermissionChange();
+            //TestClass.PermissionChange();
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
